@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const metadata = {
   title: 'Feodrippe Metadata Test',
 }
@@ -8,9 +6,9 @@ function Home(){
     return (
         <div>
           <p>Index Feodrippe Home</p>
-          <Link href="/treeprun">
+          <a href="/treeprun">
             Tree Pruning
-          </Link>
+          </a>
         </div>
       )
 }
